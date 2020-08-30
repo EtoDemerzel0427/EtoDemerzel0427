@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Steam-%23000000.svg?&style=for-the-badge&logo=steam&logoColor=white" />
   </a>&nbsp;&nbsp;
   <a href="mailto:huangweiran1998@outlook.com">
-    <img src="https://img.shields.io/badge/outlook-%230078D4.svg?&style=for-the-badge&logo=microsoftoutlook&logoColor=white"" />
+    <img src="https://img.shields.io/badge/outlook-%230078D4.svg?&style=for-the-badge&logo=microsoft%20outlook&logoColor=white"" />
   </a>&nbsp;&nbsp;
   
 
