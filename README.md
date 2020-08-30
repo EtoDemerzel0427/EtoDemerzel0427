@@ -1,5 +1,23 @@
-### Hi there 👋
+### Hi there 👋 It is EtoDemerzel here 💻
 [<img src="name.png" alt="Banner"></p>](https://huangweiran.club)
+<p align='center'>
+  
+  <!--<a href="https://wa.me/5518996643974?text=Olá!%20Alexandre">
+    <img src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" />    
+  </a>&nbsp;&nbsp;-->
+  <a href="https://www.linkedin.com/in/weiranhuang/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
+    <a href="https://steamcommunity.com/profiles/76561198366671875/">
+    <img src="https://img.shields.io/badge/Steam-%23000000.svg?&style=for-the-badge&logo=steam&logoColor=white" />
+  </a>&nbsp;&nbsp;
+  <a href="mailto:huangweiran1998@outlook.com">
+    <img src="https://img.shields.io/badge/outlook-%230078D4.svg?&style=for-the-badge&logo=microsoftoutlook&logoColor=white"" />
+  </a>&nbsp;&nbsp;
+  
+
+  
+</p>
 
 <!--
 **EtoDemerzel0427/EtoDemerzel0427** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
