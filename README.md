@@ -1,5 +1,5 @@
 ### Hi there 👋
-<img src="Celebrate - Canva Banner.png" alt="Banner"></p>](https://huangweiran.club)
+[<img src="name.png" alt="Banner"></p>](https://huangweiran.club)
 
 <!--
 **EtoDemerzel0427/EtoDemerzel0427** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
