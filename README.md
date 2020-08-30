@@ -20,7 +20,7 @@
 </p>
 
 ![EtoDemerzel's github stats](https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&show_icons=true&theme=synthwave)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EtoDemerzel0427](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EtoDemerzel0427)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **EtoDemerzel0427/EtoDemerzel0427** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
