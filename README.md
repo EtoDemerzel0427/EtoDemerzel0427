@@ -1,5 +1,5 @@
 ### Hi there 👋 It is EtoDemerzel here 💻
-[<img src="name.png" alt="Banner"></p>](https://huangweiran.club)
+[<img src="https://s1.ax1x.com/2020/08/31/dLeCpd.png" alt="Banner"></p>](https://huangweiran.club)
 <p align='center'>
   
   <!--<a href="https://wa.me/5518996643974?text=Olá!%20Alexandre">
