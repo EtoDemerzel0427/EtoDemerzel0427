@@ -14,15 +14,17 @@
   <a href="mailto:huangweiran1998@outlook.com">
     <img src="https://img.shields.io/badge/outlook-%230078D4.svg?&style=for-the-badge&logo=microsoft%20outlook&logoColor=white"" />
   </a>&nbsp;&nbsp;
-  
 
   
 </p>
 
 ![EtoDemerzel's github stats](https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&show_icons=true&theme=synthwave)
 <img src="https://media.giphy.com/media/Z9vibYnH3vugg/giphy.gif" alt="neymar's wink" height=195/>
+<img src="https://wakatime.com/share/@c2b10ff7-0b0f-409e-a083-aada74b2744c/4cf17361-c2c5-4886-a205-40e6af75df5e.svg" alt="coding activity" height=360/> <img src="https://wakatime.com/share/@c2b10ff7-0b0f-409e-a083-aada74b2744c/faededbe-d14a-4860-9487-708f7afc4ca3.svg" alt="languages" height=360/>                                                                             
 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EtoDemerzel0427&hide=javascript,html,CSS)](https://github.com/anuraghazra/github-readme-stats)-->
+                                                                             
+                                                                             
 
 <!--
 **EtoDemerzel0427/EtoDemerzel0427** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
