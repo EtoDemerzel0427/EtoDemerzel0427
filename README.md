@@ -18,7 +18,7 @@
   
 </p>
 
-![EtoDemerzel's github stats](https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&show_icons=true&theme=synthwave)
+![EtoDemerzel's GitHub stats](https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&count_private=true&show_icons=true&theme=cobalt)                                                                                                                         
 <img src="https://media.giphy.com/media/Z9vibYnH3vugg/giphy.gif" alt="neymar's wink" height=195/>
                                                                     
 
