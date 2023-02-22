@@ -20,7 +20,7 @@
 
 ![EtoDemerzel's GitHub stats](https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&count_private=true&show_icons=true&theme=cobalt)          <img src="https://media.giphy.com/media/Z9vibYnH3vugg/giphy.gif" alt="neymar's wink" height=195/>
 
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@c2b10ff7-0b0f-409e-a083-aada74b2744c/c8804418-ade6-49bf-b714-a1b4b5fe71b6.png" /></a>
+<a href="https://wakatime.com"><img src="activity.svg" /></a>
                                                                     
 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EtoDemerzel0427&hide=javascript,html,CSS)](https://github.com/anuraghazra/github-readme-stats)-->
