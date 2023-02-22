@@ -26,5 +26,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'Add white background to SVG'
-          branch: main
+          branch: master
           commit_options: '--no-verify'
