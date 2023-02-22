@@ -1,0 +1,30 @@
+
+
+name: Add White Background to SVG
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '0 0 * * *' # run every day at midnight
+
+jobs:
+  add-white-background:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Fetch SVG
+        run: |
+          curl -o activity.svg https://wakatime.com/share/@c2b10ff7-0b0f-409e-a083-aada74b2744c/45bde533-df5f-4670-a326-2139e6b87b45.svg
+
+      - name: Add White Background
+        run: |
+          sed -i 's/<svg /<svg style="background-color: white;" /' activity.svg
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Add white background to SVG'
+          branch: main
+          commit_options: '--no-verify'
