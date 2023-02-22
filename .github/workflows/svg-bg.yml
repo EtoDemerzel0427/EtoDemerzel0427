@@ -5,7 +5,7 @@ name: Add White Background to SVG
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: '0 0 * * *' # run every day at midnight
+    - cron: '37 11 * * *' # run every day at midnight
 
 jobs:
   add-white-background:
