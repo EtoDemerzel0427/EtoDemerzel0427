@@ -21,6 +21,7 @@
 ![EtoDemerzel's GitHub stats](https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&count_private=true&show_icons=true&theme=cobalt)          <img src="https://media.giphy.com/media/Z9vibYnH3vugg/giphy.gif" alt="neymar's wink" height=195/>
 
 <a href="https://wakatime.com"><img src="activity.svg" /></a>
+<img src="language_percentages.png" width=700>
                                                                     
 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EtoDemerzel0427&hide=javascript,html,CSS)](https://github.com/anuraghazra/github-readme-stats)-->
