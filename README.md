@@ -17,7 +17,12 @@
 
   
 </p>
-
+                                                                                                                                
+- 🧑‍🎓 I'm pursuing a master's degree in ECE at UT-Austin.
+- 🌱 I’m currently learning Computer Graphics 🎨 and GPU programming 🖥️ .
+- 📫 I occasionally write at: [My Trantor](https://huangweiran.club).
+- ⚡ On the job market this fall, got an opportunity? Feel free to [email me](mailto:huangweiran1998@outlook.com)!
+                                                                                                                                
 ![EtoDemerzel's GitHub stats](https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&count_private=true&show_icons=true&theme=cobalt)          <img src="https://media.giphy.com/media/Z9vibYnH3vugg/giphy.gif" alt="neymar's wink" height=195/>
 
 <a href="https://wakatime.com"><img src="activity.svg" /></a>
