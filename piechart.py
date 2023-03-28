@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import random
 
 # Apply the rose-pine-moon.mplstyle
-plt.style.use('rose-pine-moon.mplstyle')
+plt.style.use('./rose-pine-moon.mplstyle')
 
 # Fetch the JSON file
 url = "https://wakatime.com/share/@c2b10ff7-0b0f-409e-a083-aada74b2744c/66cdeaf0-85f3-453c-9430-20dacc5c7787.json"
