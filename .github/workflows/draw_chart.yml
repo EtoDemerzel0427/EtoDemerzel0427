@@ -1,0 +1,38 @@
+name: Plot Data
+
+on:
+  schedule:
+    - cron: '00 06 * * *' # run every day at midnight (CST)
+  workflow_dispatch:
+
+jobs:
+  update_chart:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas matplotlib seaborn
+
+    - name: Delete existing chart
+      run: rm -f language_percentages.png
+
+    - name: Generate chart
+      run: python piechart.py
+
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Update chart"
+        commit_user_name: "GitHub Action"
+        commit_user_email: "action@github.com"
+        file_pattern: language_percentages.png
