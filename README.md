@@ -23,10 +23,18 @@
 - 📫 I occasionally write at: [My Trantor](https://huangweiran.club).
 - ⚡ On the job market this fall, got an opportunity? Feel free to [email me](mailto:huangweiran1998@outlook.com)!
                                                                                                                                 
-![EtoDemerzel's GitHub stats](https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&count_private=true&show_icons=true&theme=cobalt)          <img src="https://media.giphy.com/media/Z9vibYnH3vugg/giphy.gif" alt="neymar's wink" height=195/>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <img src="https://github-readme-stats.vercel.app/api?username=EtoDemerzel0427&count_private=true&show_icons=true&theme=cobalt" alt="EtoDemerzel's GitHub stats" style="max-width: 50%; margin: 0 10px; height: 195px; object-fit: contain;" />
+    <img src="https://media.giphy.com/media/Z9vibYnH3vugg/giphy.gif" alt="neymar's wink" style="max-width: 50%; margin: 0 10px; height: 195px; object-fit: contain;" />
+  </div>
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <a href="https://wakatime.com"><img src="activity.svg" style="margin-bottom: 20px; max-width: 100%; max-height: 100%;" /></a>
+    <img src="language_percentages.png" style="max-width: 100%; max-height: 100%;">
+  </div>
+</div>
 
-<a href="https://wakatime.com"><img src="activity.svg" /></a>
-<img src="language_percentages.png" width=700>
+
                                                                     
 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EtoDemerzel0427&hide=javascript,html,CSS)](https://github.com/anuraghazra/github-readme-stats)-->
