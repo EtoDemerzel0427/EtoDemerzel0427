@@ -28,6 +28,9 @@ jobs:
 
     - name: Generate chart
       run: python piechart.py
+      
+    - name: Force add image file
+      run: git add --force language_percentages.png
 
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4
