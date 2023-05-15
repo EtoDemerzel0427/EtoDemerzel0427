@@ -19,7 +19,7 @@
 </p>
                                                                                                                                 
 - 🧑‍🎓 I'm pursuing a master's degree in ECE at UT-Austin.
-- 🌱 I’m currently learning Computer Graphics 🎨 and GPU programming 🖥️ .
+- 🌆 Currently based in Austin, but will spend the rest of 2023 in Chicago and Boston.
 - 📫 I occasionally write at: [My Trantor](https://huangweiran.club).
 - ⚡ On the job market this fall, got an opportunity? Feel free to [email me](mailto:huangweiran1998@outlook.com)!
                                                                                                                                 
