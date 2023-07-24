@@ -25,6 +25,14 @@ jobs:
 
     - name: Delete existing chart
       run: rm -f language_percentages.png
+      
+    - name: Commit after delete
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Delete existing chart"
+        commit_user_name: "GitHub Action"
+        commit_user_email: "action@github.com"
+        file_pattern: language_percentages.png
 
     - name: Generate chart
       run: python piechart.py
