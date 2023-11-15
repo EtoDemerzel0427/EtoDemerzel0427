@@ -19,7 +19,11 @@
 </p>
                                                                                                                                 
 - 🧑‍🎓 I'm pursuing a master's degree in ECE at UT-Austin.
-- 🌆 Currently based in Austin, but will spend the rest of 2023 in Chicago and Boston.
+- 🌆 I lived in these cities in 2023:
+  - Austin (5 months)
+  - Chicago (3 months)
+  - Boston (3 months)
+  - New York (1 month)
 - 📫 I occasionally write at: [My Trantor](https://huangweiran.club).
 - ⚡ On the job market this fall, got an opportunity? Feel free to [email me](mailto:huangweiran1998@outlook.com)!
                                                                                                                                 
