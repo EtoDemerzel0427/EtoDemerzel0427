@@ -2,7 +2,7 @@ name: Plot Data
 
 on:
   schedule:
-    - cron: '00 05 * * *' # run every day at 11pm (CST)
+    - cron: '00 18 * * *' # run every day at 6pm (UTC), which is 12pm CST
   workflow_dispatch:
 
 jobs:
