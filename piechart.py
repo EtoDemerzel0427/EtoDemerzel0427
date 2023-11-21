@@ -4,6 +4,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import random
+import sys
 
 # Apply the rose-pine-moon.mplstyle
 plt.style.use('./rose-pine-moon.mplstyle')
@@ -12,6 +13,11 @@ plt.style.use('./rose-pine-moon.mplstyle')
 url = "https://wakatime.com/share/@c2b10ff7-0b0f-409e-a083-aada74b2744c/66cdeaf0-85f3-453c-9430-20dacc5c7787.json"
 response = requests.get(url)
 data = response.json()
+
+# Check if 'data' field is in the JSON response
+if 'data' not in data:
+    print("'data' field not found in the JSON response. Exiting the script.")
+    sys.exit()  # Exit the script if 'data' field is not present
 
 # Read and prepare the data
 df = pd.DataFrame(data["data"])
