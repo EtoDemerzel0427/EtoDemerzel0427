@@ -18,14 +18,9 @@
   
 </p>
                                                                                                                                 
-- 🧑‍🎓 I'm pursuing a master's degree in ECE at UT-Austin.
-- 🌆 I lived in these cities in 2023:
-  - Austin (5 months)
-  - Chicago (3 months)
-  - Boston (3 months)
-  - New York (1 month)
+- 🧑‍🎓 I graduated from UT Austin this May.
+- 🌆 I relocated to Chicago and started my first full-time job in June 2024.
 - 📫 I occasionally write at: [My Trantor](https://huangweiran.club).
-- ⚡ On the job market this fall, got an opportunity? Feel free to [email me](mailto:huangweiran1998@outlook.com)!
                                                                                                                                 
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; margin-bottom: 20px;">
