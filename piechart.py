@@ -5,19 +5,33 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import random
 import sys
+import time
 
 # Apply the rose-pine-moon.mplstyle
 plt.style.use('./rose-pine-moon.mplstyle')
 
-# Fetch the JSON file
-url = "https://wakatime.com/share/@c2b10ff7-0b0f-409e-a083-aada74b2744c/66cdeaf0-85f3-453c-9430-20dacc5c7787.json"
-response = requests.get(url)
-data = response.json()
+# Function to fetch the JSON file with retry logic
+def fetch_json_with_retry(url, retries=10, delay=5):
+    for i in range(retries):
+        try:
+            response = requests.get(url)
+            response.raise_for_status()  # Check if the request was successful
+            data = response.json()
+            if 'data' in data:
+                return data
+            else:
+                print(f"Attempt {i + 1}: 'data' field not found in the JSON response.")
+        except (requests.exceptions.RequestException, json.JSONDecodeError) as e:
+            print(f"Attempt {i + 1}: Error occurred - {e}")
+        if i < retries - 1:
+            time.sleep(delay)  # Wait before retrying
+    sys.exit("Failed to fetch data after several attempts. Exiting script.")
 
-# Check if 'data' field is in the JSON response
-if 'data' not in data:
-    print("'data' field not found in the JSON response. Exiting the script.")
-    sys.exit()  # Exit the script if 'data' field is not present
+# URL to fetch the JSON data
+url = "https://wakatime.com/share/@c2b10ff7-0b0f-409e-a083-aada74b2744c/66cdeaf0-85f3-453c-9430-20dacc5c7787.json"
+
+# Fetch the JSON data
+data = fetch_json_with_retry(url)
 
 # Read and prepare the data
 df = pd.DataFrame(data["data"])
@@ -47,7 +61,6 @@ wedges, texts, autotexts = ax.pie(filtered_df['percent'], labels=filtered_df['na
 # Add a circle in the center with the background color
 bg_color = plt.rcParams['axes.facecolor']
 circle = plt.Circle((0, 0), 0.70, fc=bg_color)
-
 
 # Equal aspect ratio ensures the pie chart is circular
 ax.axis('equal')
