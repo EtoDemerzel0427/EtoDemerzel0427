@@ -3,7 +3,6 @@ import json
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import random
 import sys
 import time
 
@@ -11,7 +10,7 @@ import time
 plt.style.use('./rose-pine-moon.mplstyle')
 
 # Function to fetch the JSON file with retry logic
-def fetch_json_with_retry(url, retries=10, delay=5):
+def fetch_json_with_retry(url, retries=3, delay=5):
     for i in range(retries):
         try:
             response = requests.get(url)
@@ -35,6 +34,12 @@ data = fetch_json_with_retry(url)
 
 # Read and prepare the data
 df = pd.DataFrame(data["data"])
+
+# Combine C and C++ into C/C++
+df['name'] = df['name'].replace({'C': 'C/C++', 'C++': 'C/C++'})
+
+# Group by name and sum percentages for C/C++
+df = df.groupby('name', as_index=False).agg({'percent': 'sum', 'color': 'first'})
 
 # Filter out items with a percentage lower than a threshold (e.g., 1%)
 threshold = 1
