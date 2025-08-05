@@ -18,8 +18,8 @@
   
 </p>
                                                                                                                                 
-- 🧑‍🎓 I graduated from UT Austin this May.
-- 🌆 I relocated to Chicago and started my first full-time job in June 2024.
+- 🧑‍🎓 I am a software engineer based in Chicago, I write trading engine code at work.
+- 🌆 I like playing soccer, piano, and cycling along Lake Michigan in my spare time.
 - 📫 I occasionally write at: [My Trantor](https://huangweiran.club).
                                                                                                                                 
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
